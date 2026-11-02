@@ -130,7 +130,7 @@ The results suggest several **areas to investigate and test**, rather than inter
 ## 9. How to Reproduce the Analysis
 
 1. Download the original CSV from the [Kaggle dataset page](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
-2. Open `01_customer_churn_eda.ipynb` in [Google Colab](https://colab.research.google.com/).
+2. Open `customer_churn_eda.ipynb` in [Google Colab](https://github.com/maidulhassan-collab/Telco-Customer-Churn_EDA/blob/main/customer_churn_eda.ipynb).
 3. Run the notebook from the beginning.
 4. When the file-upload prompt appears, select the original Telco Customer Churn CSV.
 5. Review data-cleaning outputs, charts, validation results, and business interpretations.
@@ -140,9 +140,11 @@ The notebook cleans the raw dataset during execution; the cleaned dataset does n
 ## 10. Repository Structure
 
 ```text
-telco-customer-churn-eda/
-├── 01_customer_churn_eda.ipynb
+Telco-Customer-Churn-EDA/
+├── customer_churn_eda.ipynb
 └── README.md
+└── figures
+└── Presentation
 ```
 
 Optional additions, if created, include `figures/` for exported visualizations and `requirements.txt` for dependencies.
@@ -164,7 +166,7 @@ Additional evidence and controlled evaluation are needed to determine which acti
 
 ## 13. Project Author
 
-**[Your Name]**  
+**Md. Maidul Hassan Shanto**  
 Data Science Intern — Arrowstack, Batch 2026
 
 ## 14. Acknowledgements
